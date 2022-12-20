@@ -55,6 +55,7 @@ function printResults(resultObj) {
 }
 
 function searchApi(query, format) {
+  //I  need to call the API here but it is too late for me to get the API key since it takes 2 hours. However, this is the API I would need to call: api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
   var locQueryUrl = 'https://home.openweathermap.org/search/?fo=json';
 
   if (format) {
